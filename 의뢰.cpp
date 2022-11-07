@@ -28,7 +28,8 @@ int main(){
 			int H = rand() % 20;
 			int H1 = rand() % 20;
 			if(H==H1){
-				printf("오 지페를 주울 정도의 운이군요\n");
+				H = rand() % 50;
+				printf("오 동전를 주울 정도의 운이군요.(가격: %d)\n",H*10);
 			}
 		}
 		if(u==4){
@@ -38,7 +39,7 @@ int main(){
 				printf("오여친있나요\n");
 			}
 		}
-		if(u==5){
+		else{
 			break;	
 		}
 		system("pause");
