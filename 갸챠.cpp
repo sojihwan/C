@@ -14,6 +14,7 @@ int main(){
 	int count=0;
 	char character[7][9] = {{"대상"},{"2등상"},{"3등상"},{"4등상"},{"5등상"},{"6등상"},{"참여상"}};
 	int select;
+	printf("통안에 구슬(90개)가 들이 있고\n구슬 중 아무상이나 뽑으면 통은 리셋 되고\n다시 통안에 구슬(90개)이들어간다.\n첫번째 상이 대상이 아닐 경우\n두번째 교채일때 반드시 대상이 나온다\n");
 	for(; ;){
 		for(int infinite=0; infinite<=90; infinite++){
 			if(74<infinite){

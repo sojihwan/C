@@ -32,7 +32,7 @@ int main(){
 		int x1=0;
 		int y1=0;
 		int z1=0;
-		int signum = rand() % 4+2;
+		int signum = rand() % 10+2;
 		int sign[signum-1] = {0};
 		int answer = 0;
 		for(int i=0; i<=signum; i++){
@@ -117,7 +117,6 @@ int main(){
 		}
 		if(ad!=d){
 		
-		5
 			a1--;
 		}
 		if(ar!=r){
